@@ -14,7 +14,7 @@ class MyApp(ShowBase):
         self.scene.reparentTo(self.render)
         self.scene.setScale(0.25, 0.25, 0.25)
         self.scene.setPos(-8, 42, 0)
-
+        
         self.taskMgr.add(self.spinCameraTask, "SpinCameraTask")
 
         self.pandaActor = Actor("models/panda-model",
